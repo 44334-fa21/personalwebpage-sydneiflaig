@@ -1,1 +1,69 @@
-/*Personal Web Page Style Sheet */
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  font-size: 17px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 17px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #836953;
+  background-color: transparent;
+  text-decoration: underline;
+}
